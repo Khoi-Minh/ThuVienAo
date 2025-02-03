@@ -3,58 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testing</title>
+    <title>Thư Viện Ảo</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Thêm phông chữ từ Google Fonts -->
     <link
-      rel="website icon"
-      type="png"
-      href="img/python.png"
-  <body>
-    <h1>This is title</h1>
-    <hr />
-    <p>
-      IM NOT GAY <br />
-      IM MAN <br />
-      IM PRO
-    </p>
-    <div class="contaner"></div>
-    <img src="img/python.png" alt="">
-    <u>How to correct person per seccon</u>
-    <img src="img/python.png" alt="Python icon alt src pro sp no one can kill and die here with the dieent sersefsefsefsefsefsef">
-    <u> hi </u>
-    <strong> hi </strong>
-    <br \ />
-    <strong> <u> Gay </u></strong>
-    <i><b><u>WTF</u></b></i>
-    <ul>
-      <li>Kill yououoououo</li>
-      <li>Kill you</li>
-    </ul>
-    <p>New guy</p>
-    <ol type="I">
-      <li>You are gay</li>
-      <li>You are bad</li>
-      <li>You are sad</li>
-    </ol>
-    <ul>
-      <li>What did i do</li>
-    </ul>
-    <ol>
-      <li></li>
-    </ol>
-    <ol type="A">
-      <li>B</li>
-      <li>C</li>
-    </ol>
-    <a href="google.com">Google here</a>
-    <img
-      src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U3R1ZGVudCUyMFJlYWRpbmclMjBib29rfGVufDB8fDB8fHww"
-      alt="Book"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
     />
-    <table>
-      <label for="icon"></label>
-    </table>
-    <a href="index2.html">Click here for 2nd page</a>
-    <img src="img/python.png" alt="pypy icon" width="200">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Thư Viện Ảo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Trang Chủ</a></li>
+          <li><a href="sach-giao-khoa.html">Sách Giáo Khoa</a></li>
+          <li><a href="sach-thieu-nhi.html">Sách Thiếu Nhi</a></li>
+          <li><a href="bach-khoa.html">Bách Khoa</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="trang-chu">
+      <h1>Chào mừng đến với Thư Viện Ảo</h1>
+      <p>Nơi bạn có thể đọc và tải về nhiều loại sách miễn phí.</p>
+      <button id="explore-btn">Khám phá ngay</button>
+    </section>
+
+    <section id="sach-giao-khoa">
+      <h2>Sách Giáo Khoa</h2>
+      <div class="book-list">
+        <!-- Thêm các sách giáo khoa ở đây -->
+        <div class="book">
+          <h3>Tên Sách 1</h3>
+          <a href="books/sach-giao-khoa/sach1.pdf" target="_blank"
+            >Đọc Online</a
+          >
+          <a href="books/sach-giao-khoa/sach1.pdf" download>Tải Về</a>
+        </div>
+        <!-- Thêm nhiều sách khác -->
+      </div>
+    </section>
+
+    <section id="sach-thieu-nhi">
+      <h2>Sách Thiếu Nhi</h2>
+      <div class="book-list">
+        <!-- Thêm các sách thiếu nhi ở đây -->
+        <div class="book">
+          <h3>Tên Sách 2</h3>
+          <a href="books/sach-thieu-nhi/sach2.pdf" target="_blank"
+            >Đọc Online</a
+          >
+          <a href="books/sach-thieu-nhi/sach2.pdf" download>Tải Về</a>
+        </div>
+        <!-- Thêm nhiều sách khác -->
+      </div>
+    </section>
+
+    <section id="bach-khoa">
+      <h2>Bách Khoa</h2>
+      <div class="book-list">
+        <!-- Thêm các sách bách khoa ở đây -->
+        <div class="book">
+          <h3>Tên Sách 3</h3>
+          <a href="books/bach-khoa/sach3.pdf" target="_blank">Đọc Online</a>
+          <a href="books/bach-khoa/sach3.pdf" download>Tải Về</a>
+        </div>
+        <!-- Thêm nhiều sách khác -->
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Thư Viện Ảo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
