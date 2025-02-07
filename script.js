@@ -8,11 +8,13 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Hiệu ứng khi nhấn nút "Khám phá ngay"
-document.getElementById("explore-btn").addEventListener("click", () => {
+document.getElementById("kham-pha-ngay").addEventListener("click", () => {
   alert(
     "Chào mừng bạn đến với Thư Viện Ảo! Hãy khám phá thế giới sách tuyệt vời này nhé."
   );
+});
+document.getElementById("y-nghia").addEventListener("click", () => {
+  alert("Chàch tuyệt vời này nhé.");
 });
 
 // Hiệu ứng khi di chuột qua sách

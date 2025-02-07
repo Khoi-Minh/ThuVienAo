@@ -116,7 +116,7 @@ p {
 }
 
 /* Button */
-#explore-btn {
+#kham-pha-ngay {
   background-color: #ff6f61;
   color: #fff;
   border: none;
@@ -126,11 +126,22 @@ p {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
-#explore-btn:hover {
+#y-nghia {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#kham-pha-ngay:hover {
   background-color: #ffcc00;
 }
-
+#y-nghia:hover {
+  background-color: #ffcc00;
+}
 /* Footer */
 footer {
   background-color: #333;
@@ -140,4 +151,55 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+/* Style cho trang Ý Nghĩa Đọc Sách */
+#y-nghia-doc-sach {
+  padding: 40px 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#y-nghia-doc-sach h1 {
+  font-size: 48px;
+  color: #ff6f61;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#y-nghia-doc-sach p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+#y-nghia-doc-sach .content h2 {
+  font-size: 24px;
+  color: #ff6f61;
+  margin-top: 20px;
+}
+
+#y-nghia-doc-sach .content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ff6f61;
+  padding: 15px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #555;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+  text-align: right;
 }
